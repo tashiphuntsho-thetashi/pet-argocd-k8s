@@ -15,5 +15,5 @@ spec:
         app: pet-deploy
     spec:
       containers:
-      - image: thetashi777/tashi:5
+      - image: thetashi777/tashi:2
         name: tashi
