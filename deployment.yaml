@@ -15,5 +15,5 @@ spec:
         app: pet-deploy
     spec:
       containers:
-      - image: lhendupdorji/myApp:19
+      - image: lhendupdorji/myImage:19
         name: lhendup
