@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: lhendup-deploy
+  name: tashi-deploy
 spec:
   replicas: 2
   selector:
@@ -15,5 +15,5 @@ spec:
         app: pet-deploy
     spec:
       containers:
-      - image: lhendupdorji/lhendup:5
-        name: lhendup
+      - image: thetashi777/tashi:5
+        name: tashi
