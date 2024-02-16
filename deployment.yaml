@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: lhendup-deploy
 spec:
   replicas: 2
   selector:
@@ -15,5 +15,5 @@ spec:
         app: pet-deploy
     spec:
       containers:
-      - image: cloudsihmar/sandeep:19
-        name: pet
+      - image: lhendupdorji/myApp:19
+        name: lhendup
